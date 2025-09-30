@@ -1,0 +1,13 @@
+﻿/* 親コンテナをFlexboxに設定 */
+#top-content {
+    display: flex; /* 子要素を横並びに */
+    justify-content: space-between; /* 子要素間のスペースを均等に */
+    gap: 20px; /* 子要素間にスペースを追加（任意） */
+    height: 92vh;
+}
+
+    /* MapコンポーネントとSearchResultsの幅調整 */
+    /*.content > div {
+        flex: 1;*/ /* 子要素が同じ幅を持つように */
+        /*min-width: 200px;*/ /* 最小幅の設定（任意） */
+    /*}*/
