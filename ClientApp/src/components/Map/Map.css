@@ -1,0 +1,19 @@
+﻿
+.locate-button {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+    .locate-button img {
+        height: 30px; /* 画像の高さを指定 */
+        width: 30px; /* 画像の幅を指定 */
+        cursor: pointer;
+    }
+
+#map {
+    height: 70vh;
+    width: 100%;
+}
+
